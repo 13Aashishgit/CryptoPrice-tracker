@@ -32,7 +32,8 @@ const Navbar = () => {
   }
   return (
     <div className='navbar'>
-        <img src={logo} alt="" className='logo' />
+      <Link to="/">
+        <img src={logo} alt="" className='logo' /></Link>
         <ul>
             <li><Link to="/">Home</Link></li>
             <li>Feature</li>
