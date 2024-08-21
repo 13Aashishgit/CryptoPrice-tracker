@@ -5,8 +5,8 @@ export const CoinContext = createContext();
 const CoinContextProvider = (props) => {
   const [allCoin, setAllCoin] = useState([]);
   const [currency, setCurrency] = useState({
-    name: "usd",
-    symbol: "$",
+    name: "inr",
+    symbol: "₹",
   });
 
   const fetchAllCoin = async () => {
@@ -29,7 +29,7 @@ const CoinContextProvider = (props) => {
 
   useEffect(()=>{
     fetchAllCoin();
-    console.log(currency);
+    // console.log(currency);
     
   },[currency])
 

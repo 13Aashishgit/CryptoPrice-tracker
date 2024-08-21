@@ -70,7 +70,7 @@ nav-right button img{
     }
 }
 
-@media(max-width:7668px) {
+@media(max-width:768px) {
     .navbar{
         padding: 20px 5%;
     }
